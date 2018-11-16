@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+//Mixins
+
+//flexbox
+@mixin flexy($disp: flex, $dir: null, $wrap: null, $justify: null, $align-items: null, $align-content: null) {
+	display: $disp;
+	flex-direction: $dir;
+	flex-wrap: $wrap;
+	justify-content: $justify;
+	align-items: $align-items;
+	align-content: $align-content;
+}
+
+//mediaQueries
+@mixin mq($breakpoint) {
+	@media (min-width: $breakpoint) {
+		@content;
+	}
+}
