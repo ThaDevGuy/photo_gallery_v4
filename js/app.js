@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 let searchInput = document.getElementById("searchbar");
 const figcaption = document.querySelectorAll("figcaption");
 const imgDiv = document.querySelectorAll(".imagery");
